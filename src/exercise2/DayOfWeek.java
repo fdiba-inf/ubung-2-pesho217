@@ -6,6 +6,7 @@ public class DayOfWeek {
   public static void main(String []args) {
     Scanner input = new Scanner(System.in);
 
+<<<<<<< HEAD
     int day = input.nextInt();
 
     switch (day) {
@@ -42,3 +43,32 @@ public class DayOfWeek {
   
    
   
+=======
+    int number = input.nextInt();
+    if (number > 7) {
+      System.out.println("Invalid day");
+    }
+    if (number == 1) {
+      System.out.println("Monday");
+    }
+    if (number == 2) {
+      System.out.println("Tuesday");
+    }
+    if (number == 3) {
+      System.out.println("Wednesday");
+    }
+    if (number == 4) {
+      System.out.println("Thursday");
+    }
+    if (number == 5) {
+      System.out.println("Friday");
+    }
+    if (number == 6) {
+      System.out.println("Saturday");
+    } 
+    if (number == 7) {
+      System.out.println("Sunday");
+    } 
+  }
+}
+>>>>>>> 77aeb9c683c34bc3f7100ab9c7ddd96f050ddd4f
