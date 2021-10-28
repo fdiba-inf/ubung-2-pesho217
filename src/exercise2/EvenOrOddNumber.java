@@ -10,24 +10,10 @@ public class EvenOrOddNumber {
     System.out.print("Number is ");
     int number1 = number%2;
     if (number1 == 0) {
-<<<<<<< HEAD
       System.out.print("even");
     } else {
       System.out.print("odd");
     } 
-=======
-<<<<<<< HEAD
-      System.out.print("even");
-    } else {
-      System.out.print("odd");
-=======
-      System.out.print("odd");
-    } else {
-      System.out.print("even");
->>>>>>> 77aeb9c683c34bc3f7100ab9c7ddd96f050ddd4f
-    }
-    
->>>>>>> d88cb4590f5619d8d1448933a67f4f4466975547
   }
 }
   
