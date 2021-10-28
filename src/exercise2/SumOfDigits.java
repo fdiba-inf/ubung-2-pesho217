@@ -12,7 +12,7 @@ public class SumOfDigits {
     int number3 = number/10;
     int number4 = number - number3*10;
     int result = number1 + number2 + number4;
-    System.out.print("Sum of digits:");
+    System.out.print("Sum of digits: ");
     System.out.println(result);
   }
 }
