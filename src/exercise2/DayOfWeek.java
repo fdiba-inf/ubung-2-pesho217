@@ -7,6 +7,7 @@ public class DayOfWeek {
     Scanner input = new Scanner(System.in);
 
     int day = input.nextInt();
+    System.out.print("Day of week:");
 
     switch (day) {
       
@@ -39,6 +40,4 @@ public class DayOfWeek {
     
   }
 } 
-  
-   
   
